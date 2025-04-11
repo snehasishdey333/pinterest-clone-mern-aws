@@ -5,7 +5,6 @@ import cors from 'cors'
 import helmet from 'helmet'
 import morgan from 'morgan'
 import cookieParser from 'cookie-parser'
-
 import authRoutes from './routes/auth'
 import pinRoutes from './routes/pins'
 import commentRoutes from './routes/comments'
